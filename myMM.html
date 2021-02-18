@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head id="myMMHead">
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/myMM.css">
+  <script type="text/javascript" src="./js/myMM.js"></script>
+  <body id="myMMBody">
+    <div id="topLeftContent" class="top left"></div>
+    <div id="topCenterContent" class="top middle"></div>
+    <div id="topRightContent" class="top right"></div>
+    <div id="centerLeftContent" class="center left"></div>
+    <div id="centerCenterContent" class="center middle"></div>
+    <div id="centerRightContent" class="center right"></div>
+    <div id="bottomLeftContent" class="bottom left"></div>
+    <div id="bottomCenterContent" class="bottom middle"></div>
+    <div id="bottomRightContent" class="bottom right"></div>
+    <div id="dynamicContent"></div>
+    <script>
+/*******************************************************************************
+ * start the magic mirror
+ *
+ * enable modules you might require
+ ******************************************************************************/
+enableModule("./config.js","js");
+
+//enableModule("./js/myMMcalendar.js","js"); // TODO css style
+enableModule("./js/myMMclock.js","js"); // TODO css for lcd
+enableModule("./js/myMMcompliments.js","js"); // TODO css style
+//enableModule("./js/myMMgestures.js","js");
+//enableModule("./js/myMMmail.js","js");
+enableModule("./js/myMMrssFeed.js","js"); // code style
+//enableModule("./js/myMMsidebar.js","js");
+//enableModule("./js/myMMspeechToText.js","js");
+//enableModule("./js/myMMweatherCurrent.js","js");
+//enableModule("./js/myMMweatherForecast.js","js");
+//enableModule("./js/myMMyoutube.js","js");
+//enableModule("./js/myMMradio.js","js");
+
+    </script>
+ </body>
+</html>
