@@ -1,0 +1,25 @@
+/*
+ * my magic mirror weatherForecast css
+ */
+ .weatherForecast .day {
+  padding-left: 0;
+  padding-right: 25px;
+}
+.weatherForecast .weather-icon {
+  padding-right: 30px;
+  text-align: center;
+}
+.weatherForecast .min-temp {
+  padding-left: 20px;
+  padding-right: 0;
+}
+.weatherForecast .rain {
+  padding-left: 20px;
+  padding-right: 0;
+}
+.weatherForecast tr.colored .min-temp {
+    color: #BCDDFF;
+}
+.weatherForecast tr.colored .max-temp {
+    color: #FF8E99;
+}

@@ -1,0 +1,18 @@
+/*
+ * my magic mirror weatherCurrent css
+ */
+.weatherCurrent .weathericon,
+.weatherCurrent .fa-home {
+  font-size: 75%;
+  line-height: 65px;
+  display: inline-block;
+  -ms-transform: translate(0, -3px); /* IE 9 */
+  -webkit-transform: translate(0, -3px); /* Safari */
+  transform: translate(0, -3px);
+}
+.weatherCurrent .humidityIcon {
+  padding-right: 4px;
+}
+.weatherCurrent .humidity-padding {
+  padding-bottom: 6px;
+}

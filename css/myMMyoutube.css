@@ -1,0 +1,9 @@
+/*
+ * my magic mirror youtube css
+ */
+iframe:focus {
+  outline: none;
+}
+iframe[seamless] {
+  display: block;
+}
